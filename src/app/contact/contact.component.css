@@ -1,0 +1,19 @@
+span {
+    height: 4px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+}
+input{
+    position: relative !important;
+    z-index: 10 !important;
+}
+label{
+    color: #1abc9c;
+    position: absolute;
+    top: -10px;
+    transition: all 0.9s;
+}
+.btn{
+    background-color: #1abc9c;
+    color: white;
+}

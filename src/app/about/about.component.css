@@ -1,0 +1,9 @@
+section{
+    background-color: #1abc9c;
+    color: white ;
+}
+span{
+    height: 4px;
+    width: 80px;
+    background-color: white;
+}

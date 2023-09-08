@@ -1,0 +1,65 @@
+<section class="py-3 position-relative">
+    <div  (click)="uncheck()" [ngStyle]="{'display': flag? 'flex':'none'}" class="image">
+        <div class="data">
+            <img [src]="path" width="600px" alt="">
+        </div>
+    </div>
+    <h2 class="title text-center m-0">PORTFOLIO COMPONENT</h2>
+    <div class="d-flex  justify-content-center align-items-center gap-3 py-3">
+        <span></span>
+        <i class="fa-solid fa-star"></i>
+        <span></span>
+    </div>
+    <div class="container">
+        <div class="row g-5">
+            <div (click)="check(1)" class="col-md-4 pb-3">
+                <div class="position-relative border border-0 rounded-3 overflow-hidden">
+                    <img src="../../assets/port1.png" width="100%" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="check(2)" class="col-md-4 pb-3">
+                <div class="position-relative border border-0 rounded-3 overflow-hidden">
+                    <img src="../../assets/port2.png" width="100%" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="check(3)" class="col-md-4 pb-3">
+                <div class="position-relative border border-0 rounded-3 overflow-hidden">
+                    <img src="../../assets/port3.png" width="100%" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="check(1)" class="col-md-4 pb-3">
+                <div class="position-relative border border-0 rounded-3 overflow-hidden">
+                    <img src="../../assets/port1.png" width="100%" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="check(2)" class="col-md-4 pb-3">
+                <div class="position-relative border border-0 rounded-3 overflow-hidden">
+                    <img src="../../assets/port2.png" width="100%" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div (click)="check(3)" class="col-md-4 pb-3">
+                <div class="position-relative border border-0 rounded-3 overflow-hidden">
+                    <img src="../../assets/port3.png" width="100%" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
